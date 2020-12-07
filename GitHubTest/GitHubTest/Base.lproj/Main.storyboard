@@ -38,12 +38,21 @@
                                 </constraints>
                                 <state key="normal" title="Login"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmf-kv-mYv">
+                                <rect key="frame" x="20" y="64" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KcF-5s-Mri"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="LO1-id-nfI" firstAttribute="leading" secondItem="KcF-5s-Mri" secondAttribute="leading" constant="20" id="cD3-J5-jlg"/>
+                            <constraint firstItem="KcF-5s-Mri" firstAttribute="trailing" secondItem="hmf-kv-mYv" secondAttribute="trailing" constant="20" id="dZN-WV-N2K"/>
                             <constraint firstItem="KcF-5s-Mri" firstAttribute="trailing" secondItem="LO1-id-nfI" secondAttribute="trailing" constant="20" id="kVJ-SC-YOu"/>
+                            <constraint firstItem="hmf-kv-mYv" firstAttribute="leading" secondItem="KcF-5s-Mri" secondAttribute="leading" constant="20" id="sv0-Si-Xqs"/>
+                            <constraint firstItem="hmf-kv-mYv" firstAttribute="top" secondItem="KcF-5s-Mri" secondAttribute="top" constant="20" id="tVG-Iy-BtW"/>
                             <constraint firstItem="KcF-5s-Mri" firstAttribute="bottom" secondItem="LO1-id-nfI" secondAttribute="bottom" constant="20" id="ysO-5o-bp2"/>
                         </constraints>
                     </view>
