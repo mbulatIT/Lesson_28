@@ -38,12 +38,19 @@
                                 </constraints>
                                 <state key="normal" title="Login"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhD-g4-klP">
+                                <rect key="frame" x="20" y="64" width="374" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KcF-5s-Mri"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="KcF-5s-Mri" firstAttribute="trailing" secondItem="qhD-g4-klP" secondAttribute="trailing" constant="20" id="Hqh-ko-NFo"/>
                             <constraint firstItem="LO1-id-nfI" firstAttribute="leading" secondItem="KcF-5s-Mri" secondAttribute="leading" constant="20" id="cD3-J5-jlg"/>
+                            <constraint firstItem="qhD-g4-klP" firstAttribute="top" secondItem="KcF-5s-Mri" secondAttribute="top" constant="20" id="ipl-eO-GcW"/>
                             <constraint firstItem="KcF-5s-Mri" firstAttribute="trailing" secondItem="LO1-id-nfI" secondAttribute="trailing" constant="20" id="kVJ-SC-YOu"/>
+                            <constraint firstItem="qhD-g4-klP" firstAttribute="leading" secondItem="KcF-5s-Mri" secondAttribute="leading" constant="20" id="roy-PP-ANS"/>
                             <constraint firstItem="KcF-5s-Mri" firstAttribute="bottom" secondItem="LO1-id-nfI" secondAttribute="bottom" constant="20" id="ysO-5o-bp2"/>
                         </constraints>
                     </view>
