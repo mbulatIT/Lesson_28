@@ -47,6 +47,9 @@
                             <constraint firstItem="KcF-5s-Mri" firstAttribute="bottom" secondItem="LO1-id-nfI" secondAttribute="bottom" constant="20" id="ysO-5o-bp2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="LO1-id-nfI" id="Ewu-yl-grc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KbN-In-KHh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
