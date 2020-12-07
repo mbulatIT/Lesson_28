@@ -13,6 +13,7 @@
 		955A7A38257E992100252802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955A7A36257E992100252802 /* Main.storyboard */; };
 		955A7A3A257E992500252802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955A7A39257E992500252802 /* Assets.xcassets */; };
 		955A7A3D257E992500252802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955A7A3B257E992500252802 /* LaunchScreen.storyboard */; };
+		955A7A47257EA38C00252802 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A7A46257EA38C00252802 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		955A7A39257E992500252802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		955A7A3C257E992500252802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		955A7A3E257E992500252802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955A7A46257EA38C00252802 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				955A7A30257E992100252802 /* AppDelegate.swift */,
 				955A7A32257E992100252802 /* SceneDelegate.swift */,
 				955A7A34257E992100252802 /* ViewController.swift */,
+				955A7A46257EA38C00252802 /* LoginViewController.swift */,
 				955A7A36257E992100252802 /* Main.storyboard */,
 				955A7A39257E992500252802 /* Assets.xcassets */,
 				955A7A3B257E992500252802 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955A7A47257EA38C00252802 /* LoginViewController.swift in Sources */,
 				955A7A35257E992100252802 /* ViewController.swift in Sources */,
 				955A7A31257E992100252802 /* AppDelegate.swift in Sources */,
 				955A7A33257E992100252802 /* SceneDelegate.swift in Sources */,
